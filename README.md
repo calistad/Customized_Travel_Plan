@@ -78,7 +78,7 @@ The most significant features are `Flight`, `Time`, `Airport_To`, and `Airlines`
 
 After comparing 5 models, **Voting classifier** and **Ada boost classifier** are recommended.
 
-| Voting Classifier | Ada Boost |
+| Voting Classifier | Ada Boost Classifier|
 | --- | --- | 
 | Accuracy: 66.3% | Accuracy: 64.8% |
 | ![Screen Shot 2022-07-14 at 9 55 40 PM](https://user-images.githubusercontent.com/88747464/179131315-618b0966-261c-44ca-ab45-3dce97f0d786.png) | ![Screen Shot 2022-07-14 at 10 01 32 PM](https://user-images.githubusercontent.com/88747464/179131895-49dd23b8-1148-4c33-be20-e5b9f32ce083.png) |
@@ -88,28 +88,9 @@ After comparing 5 models, **Voting classifier** and **Ada boost classifier** are
 | ![Screen Shot 2022-07-14 at 9 56 03 PM](https://user-images.githubusercontent.com/88747464/179131374-dbe4c373-3db8-4294-b46e-efe3e2deef47.png) | ![Screen Shot 2022-07-14 at 10 01 54 PM](https://user-images.githubusercontent.com/88747464/179132035-46448ae0-f408-40e2-9354-9ad528f20521.png) |
 
 
-## 3. Reserve the Suitable Airbnb
+## 3. Estimate the Potential Housing Price
 
-Assuming the client chooses Los Angeles, we will look at Airbnb located in Los Angeles.
-
-### Approach
-
-13,000+ hotels for clients to choose.
-
-![Screen Shot 2022-09-18 at 6 58 49 PM](https://user-images.githubusercontent.com/88747464/190931914-746a400c-51b8-4467-bc14-85047ec284bb.png)
-
-* Clients' requirements.
-
-![Screen Shot 2022-09-18 at 6 59 12 PM](https://user-images.githubusercontent.com/88747464/190931927-55b6ed4e-a684-4490-bfa4-c9bedfdf6b5e.png)
-
-Available hotels after clients' requirements.
-
-![Screen Shot 2022-09-18 at 6 59 46 PM](https://user-images.githubusercontent.com/88747464/190931930-b8894de2-495e-4de4-967a-418d2060496a.png)
-
-
-## 4. Estimate the Potential Housing Price
-
-Assuming the client chooses Los Angeles, we will predict Airbnb pricing located in Los Angeles.
+Housing prices could be predicted after clients choose a city along with desirable selections.
 
 ### Approach
 
@@ -128,15 +109,34 @@ The most significant features are `Cleaning_fee` and `bedrooms`.
 
 ![Screen Shot 2022-09-18 at 7 16 41 PM](https://user-images.githubusercontent.com/88747464/190932379-eadb10c6-65bc-4c4a-a3b7-fd1b36580bdc.png)
 
-Linear regression would be recommended for its most accurate performance. 
+**Linear regression** would be recommended for its most accurate performance. 
 
-Ridge Regression with Grid Search Cross-validation achieved the second best performance.
+Ridge Regression with Grid Search Cross-validation achieved the second-best performance.
 
 | Linear Regression | Ridge Regression |
 | --- | --- | 
 | Accuracy: 61% | Accuracy: 59% |
 | Residual Standard Error: 147.39 | Residual Standard Error: 171.09 |
 | ![Screen Shot 2022-09-18 at 8 59 46 PM](https://user-images.githubusercontent.com/88747464/190935820-572325d3-74ef-4af9-8faa-3d612d8349f7.png) | ![Screen Shot 2022-09-18 at 8 59 57 PM](https://user-images.githubusercontent.com/88747464/190935830-bec27d74-1baf-4334-9dbf-52c4fb95a6ca.png) |
+
+
+## 4. Reserve a Suitable Airbnb
+
+Assuming the client chooses Los Angeles, Airbnb in Los Angeles would be explored.
+
+### Approach
+
+13,000+ hotels are available to choose from.
+
+![Screen Shot 2022-09-18 at 6 58 49 PM](https://user-images.githubusercontent.com/88747464/190931914-746a400c-51b8-4467-bc14-85047ec284bb.png)
+
+Customize the options.
+
+![Screen Shot 2022-09-18 at 6 59 12 PM](https://user-images.githubusercontent.com/88747464/190931927-55b6ed4e-a684-4490-bfa4-c9bedfdf6b5e.png)
+
+Available hotels after clients' requirements.
+
+![Screen Shot 2022-09-18 at 6 59 46 PM](https://user-images.githubusercontent.com/88747464/190931930-b8894de2-495e-4de4-967a-418d2060496a.png)
 
 
 ## Resources
