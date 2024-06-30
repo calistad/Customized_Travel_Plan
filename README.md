@@ -8,9 +8,10 @@ Create a customized efficient travel plan for clients in 4 aspects.
     
 * Predict whether the clients’ selected flights from 18 Airlines will be delayed.
 
+* Propose housing **price** estimation on clients' desirable Airbnb.
+
 * Suggest the most suitable **Airbnb** to clients based on selected features.
 
-* Propose housing **price** estimation on clients' desirable Airbnb.
 
 ## 1. Find the Preferable City
 
@@ -109,6 +110,8 @@ The most significant features are `Cleaning_fee` and `bedrooms`.
 
 ![Screen Shot 2022-09-18 at 7 16 41 PM](https://user-images.githubusercontent.com/88747464/190932379-eadb10c6-65bc-4c4a-a3b7-fd1b36580bdc.png)
 
+### Findings
+
 **Linear regression** would be recommended for its most accurate performance. 
 
 Ridge Regression with Grid Search Cross-validation achieved the second-best performance.
@@ -133,6 +136,8 @@ Assuming the client chooses Los Angeles, Airbnb in Los Angeles would be explored
 Customize the options.
 
 ![Screen Shot 2022-09-18 at 6 59 12 PM](https://user-images.githubusercontent.com/88747464/190931927-55b6ed4e-a684-4490-bfa4-c9bedfdf6b5e.png)
+
+### Findings
 
 Available hotels after clients' requirements.
 
