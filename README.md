@@ -2,7 +2,7 @@
 
 ## Overview
 
-Create an customized efficient travel plan for clients in 4 aspects.
+Create a customized efficient travel plan for clients in 4 aspects.
 
 * Present 600+ **cities**, nearby **airports**, **hotels**, and **restaurants** with clients’ preferable weather.
     
@@ -30,7 +30,7 @@ Clients choose preferable weather.
 
 ### Findings
 
-* Interactive Map
+* Clients could explore the Interactive Map to make their selections.
 
 ![Screen Shot 2022-09-17 at 11 37 23 PM](https://user-images.githubusercontent.com/88747464/190930473-36f85af5-8183-42b4-8f70-ed28dd56dd78.png)
 
@@ -72,13 +72,11 @@ Retrieve **Feature importance**.
 
 ![Screen Shot 2022-07-14 at 9 44 08 PM](https://user-images.githubusercontent.com/88747464/179130183-ff3de576-8132-4b60-9fb3-2b61449a0cb9.png)
 
-The most significant features are `Airlines`, `Time`, `Airport_To`, `Flight`.
+The most significant features are `Flight`, `Time`, `Airport_To`, and `Airlines`.
 
 ![Screen Shot 2022-07-14 at 10 07 29 PM](https://user-images.githubusercontent.com/88747464/179132435-61a32d57-54ef-407c-829b-4981eea98e10.png)
 
-The model with the best performance is the voting classifier, however, it tends to be more computationally intensive.
-
-Therefore, both the `voting classifier` and `ada boost classifier` are recommended in this case.
+After comparing 5 models, **Voting classifier** and **Ada boost classifier** are recommended.
 
 | Voting Classifier | Ada Boost |
 | --- | --- | 
