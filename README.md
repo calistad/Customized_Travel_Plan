@@ -38,7 +38,7 @@ Clients choose preferable weather.
 
 ## 2. Choose the Right Flight
 
-[Click here for a detailed version.](https://github.com/calistad/Client_travel_plan/blob/main/Airline_Analysis.md)
+[Click here for a detailed version.](https://github.com/calistad/Customized_Travel_Plan/blob/main/Airlines/Airline%20Analysis.md)
 
 ### Approach
 
