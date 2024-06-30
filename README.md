@@ -1,4 +1,4 @@
-# Customized_Travel_Plan
+# Customized Travel Plan
 
 ## Overview
 
@@ -125,7 +125,7 @@ Ridge Regression with Grid Search Cross-validation achieved the second-best perf
 
 ## 4. Reserve a Suitable Airbnb
 
-Assuming the client chooses Los Angeles, Airbnb in Los Angeles would be explored.
+Assuming clients choose Los Angeles, Airbnb in Los Angeles would be explored.
 
 ### Approach
 
