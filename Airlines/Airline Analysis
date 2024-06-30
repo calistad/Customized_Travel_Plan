@@ -77,7 +77,7 @@ Only the top 4 attributes are retained.
 ## Summary
 Overall, voting classifier achieved the best performance, which contains the highest accuracy, highest roc-auc score, and shorter run time. 
 
-However,  voting classifier tend to be more computationally intensive.
+However,  voting classifiers tend to be more computationally intensive.
 
 Therefore, if the company wants to predict flight delays, both the `voting classifier` and `ada boost classifier` are recommended. 
 
@@ -86,3 +86,4 @@ Therefore, if the company wants to predict flight delays, both the `voting class
 Airlines Dataset to predict a delay. (2022, June 21). Kaggle. https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delayMicrosoft. (2022). 
 
 GitHub Docs. https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
+
